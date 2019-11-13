@@ -64,10 +64,13 @@ h2 {
   font-family: "Sigmar One", serif;
   color: #b20953;
   font-size: 1.875rem;
+  margin-left: -1em;
 }
 
 p {
   font-family: Georgia;
+  padding-left: 0;
+  margin-left: -1.5em;
 }
 
 footer {
@@ -80,6 +83,7 @@ footer {
 }
 
 img {
+  display: inline-block;
   height: 90%;
   width: 95%;
 }
