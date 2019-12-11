@@ -1,91 +1,86 @@
 html {
-  background-color: white;
-  line-height: 1.5;
   box-sizing: border-box;
   font-family: "Sigmar One", georgia;
+  line-height: 1.5;
   text-align: center;
-  margin 0;
+  background-color: #fff;
+  margin: 0;
 }
 
-* *::before, *::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
+h1 {
   margin: 0;
+  font-size: 3rem;
+}
+
+footer, header {
+  margin: 0;
+  background-color: #ffe500;
 }
 
 header {
+  padding: 0;
+}
+
+h1, h2 {
   color: #b20953;
-  line-height: 1.5;
-  text-align: center;
-  background: #ffe500;
-  border: 3px solid #ffe500;
-  border-color: #ffe500;
-}
-
-h1 {
-  font-family: "Sigmar One", serif;
-  margin: 0;
-  font-size: 3rem;
-
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  min-width: 100px;
-  padding-left: 0;
-}
-
-ul li {
-  display: inline;
-  font-family: Georgia, serif;
-}
-
-a:link, a:visited {
-  font-family: Georgia, sans-serif;
-  background-color: #b2a212;
-  color: white;
-  padding: .2em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 4px;
-  border: 2px solid #b2a212;
-  margin: .05em;
-  font-size: 1.125rem;
-}
-
-a:hover, a:active {
-  background-color: #b20953;
-  border: 2px solid #b20953;
 }
 
 h2 {
-  font-family: "Sigmar One", serif;
-  color: #b20953;
   font-size: 1.875rem;
-  margin-left: .3em;
+  margin: .3em .1em;
+  padding: .3em 0;
 }
 
-p {
-  font-family: Georgia;
-  padding-top: .5em;
-  margin-left: .3em;
-}
-
-footer {
-  background-color: #ffe500;
+a {
   margin: .3em;
-  padding: .75em;
-  font-size: 1rem;
+}
+
+li {
+  font-size: 1.125rem;
+  border-style: none;
+  display: inline;
+  list-style-type: none;
+}
+
+nav a {
+  display: inline-block;
+  font-family: Georgia, serif;
+  padding: .2em .5em .3em;
+  margin: 0 0 .3em;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #b2a212;
 }
 
 img {
-  display: inline-block;
-  height: 90%;
-  width: 95%;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: .2em .3em;
+}
+
+nav a:hover {
+  background-color: #cc1465;
+  color: #fff;
+}
+
+p {
+  font-size: 1rem;
+  font-family: georgia;
+  color: #2f2d13;
+  margin: .3em;
+  padding-top: .5em;
+}
+
+footer {
+  font-size: 1rem;
+  font-family: georgia;
+  padding: .75em;
 }
 
 main {
@@ -93,4 +88,17 @@ main {
   padding: .2em;
   margin: .3em;
   background-color: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+nav .current {
+  background-color: #b20953;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
